@@ -138,3 +138,49 @@ margin-right: 40%;
   .attribution a {
     color: hsl(228, 45%, 44%);
   }
+  @media only screen and (max-width: 600px) {
+    #container {
+      flex-direction: column;
+    }
+    #first-row {
+      margin-top: 50px;
+      flex-direction: column;
+    }
+    .intro-text {
+      width: auto;
+      text-align: center;
+    }
+    .intro-text .title {
+      font-size: 18px;
+    }
+    .feedback-container {
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      min-width: 75vw;
+    }
+    #fb-1 {
+      margin-left: 0;
+      margin-right: 0;
+      }
+      #fb-2 {
+        margin-left: 0;
+        margin-right: 0;
+      }
+      #fb-3 {
+        margin-left: 0;
+      }
+    .reviews {
+      flex-direction: column;
+    }
+    #review-2 {
+      margin-top: 0;
+    }
+    #review-3 {
+      margin-top: 0;
+    }
+    .review-container {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+  }
