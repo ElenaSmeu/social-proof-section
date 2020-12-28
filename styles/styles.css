@@ -1,0 +1,140 @@
+:root {
+--black: #000;
+--border-radius: 0.25rem;
+--dark-magenda:  hsl(300, 43%, 22%);
+--soft-pink: hsl(333, 80%, 67%);
+--Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+--Light-Grayish-Magenta: hsl(300, 24%, 96%);
+--White: hsl(0, 0%, 100%);
+--font-family: 'Spartan', sans-serif;
+--font-size : 15px;
+}
+
+
+body {
+    font-size: var(--font-size);
+    font-family: var(--font-family);
+    margin: 0;
+    overflow: hidden;
+}
+.bg-desktop {
+  position: absolute;
+  overflow: hidden;
+  z-index: -1;
+}
+.raiting-containers {
+  display: flex;
+  flex-direction: column;
+  width: calc(100vw*0.5);
+  margin-top: 40px;
+}
+.star-rating img{
+  margin-right: 4px;
+}
+.feedback-container {
+  margin-bottom: 15px;
+  display: flex;
+  min-width: 380px;
+  justify-content: center;
+  flex-direction: row;
+  padding: 16px;
+  color: var(--dark-magenda);
+  font-family: 'Spartan', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 8px;
+  background-color: var(--Light-Grayish-Magenta);
+}
+#fb-1 {
+margin-left: 20%;
+margin-right: 40%;
+}
+#fb-2 {
+  margin-left: 30%;
+  margin-right: 20%;
+}
+#fb-3 {
+  margin-left: 40%;
+}
+.feedback-text {
+  margin-left: 30px;
+  margin-top: 4px;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5%;
+  padding-left: 8%;
+  padding-bottom: 5%;
+  padding-right: 8%;
+  z-index: 1;
+}
+#first-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.intro-text {
+  width: 35%;
+  font-family: 'Spartan', sans-serif;
+}
+.intro-text .title {
+  color: var(--dark-magenda);
+  font-size: 24px;
+}
+.intro-text .subtitle {
+  color: var(--Dark-Grayish-Magenta);
+  font-family: 'Spartan', sans-serif;
+  line-height: 22px;
+}
+#second-row {
+  margin-top: 30px;
+}
+.reviews {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.review-container {
+  background-color: var(--dark-magenda);
+  color: var(--Light-Grayish-Magenta);
+  min-height: 180px;
+  max-width: calc(100vw * 0.24);
+  border-radius: 8px;
+  padding: 20px;
+  font-size: 14px;
+}
+.user-profile {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.user-profile .user-image {
+  border-radius: 50%;
+  width: 40px;
+}
+.user-profile .user-info {
+  margin-top: 8px;
+  margin-left: 30px;
+}
+.user-profile .user-info .user-role {
+  color: var(--soft-pink);
+}
+.user-quote {
+  margin-top: 25px;
+  line-height: 22px;
+  font-size: 12px;
+}
+#review-2 {
+  margin-top: 20px;
+}
+#review-3 {
+  margin-top: 40px;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
