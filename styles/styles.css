@@ -139,6 +139,9 @@ margin-right: 40%;
     color: hsl(228, 45%, 44%);
   }
   @media only screen and (max-width: 600px) {
+    body {
+      overflow: scroll;
+    }
     #container {
       flex-direction: column;
     }
